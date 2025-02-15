@@ -78,10 +78,13 @@ function createHeart(container) {
 
   setTimeout(() => {
     container.removeChild(heart);
+    showother();
   }, 6000);
-
+}
+function showother() {
   $(".card").addClass("hidden");
   document.getElementById("letterDiv").classList.remove("hidden");
+
   setTimeout(() => {
     document.getElementById("letterDiv").classList.add("hidden");
     document.getElementById("env").classList.remove("hidden");

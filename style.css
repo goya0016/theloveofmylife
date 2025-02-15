@@ -225,6 +225,7 @@ path.heart {
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 40px var(--shadow-color);
+  position: fixed;
 }
 .envelope-wrapper > .envelope {
   position: relative;
@@ -313,3 +314,25 @@ div.heart:after {
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+
+  label {
+    font-size: large;
+
+    textarea {
+      background-color: transparent;
+      border: 1px solid black;
+      margin-top: 10px;
+      height: 70px;
+      width: 200px;
+    }
+  }
+}
+/* form buttom {
+  background-color: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  border: 3px solid pink;
+} */
