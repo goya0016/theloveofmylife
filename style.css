@@ -225,7 +225,7 @@ path.heart {
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 40px var(--shadow-color);
-  position: fixed;
+  /* position: fixed; */
 }
 .envelope-wrapper > .envelope {
   position: relative;
