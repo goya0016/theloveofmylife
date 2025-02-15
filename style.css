@@ -219,13 +219,14 @@ path.heart {
 
 .container {
   height: 100vh;
+  /* width: ; */
   display: grid;
   place-items: center;
 }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
   box-shadow: 0 0 40px var(--shadow-color);
-  /* position: fixed; */
+  position: relative;
 }
 .envelope-wrapper > .envelope {
   position: relative;
@@ -319,7 +320,7 @@ form {
   flex-direction: column;
   position: absolute;
   top: 70%;
-
+  left: 30%;
   label {
     font-size: large;
 
